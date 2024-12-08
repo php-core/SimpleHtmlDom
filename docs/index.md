@@ -4,8 +4,10 @@ title: PHP Simple HTML DOM Parser
 
 A fast, simple and reliable HTML document parser for PHP.
 
-Created by S.C. Chen, based on [HTML Parser for PHP 4](http://php-html.sourceforge.net/) by Jose
+The original [Simple HTML DOM Parser project](https://sourceforge.net/p/simplehtmldom) was created by S.C. Chen, based on [HTML Parser for PHP 4](http://php-html.sourceforge.net/) by Jose
 Solorzano.
+
+It is now being continued here by PHPCore aiming to make "composer" compatibility better and clean-up some code, introduce type-safety and generally keep the project up-to-date.
 
 # Parse any HTML document
 
