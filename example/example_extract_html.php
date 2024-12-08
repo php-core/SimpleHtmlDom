@@ -1,6 +1,6 @@
 <?php
 // This example illustrates how to extract text content from a webpage
-include_once '../HtmlWeb.php';
+require_once dirname(__DIR__).'/vendor/autoload.php';
 
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 

@@ -19,7 +19,7 @@ node as child to another node.
 <?php
 // This example illustrates adding new elements to the DOM.
 
-require_once 'HtmlDocument.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 /***************************** table data *************************************/

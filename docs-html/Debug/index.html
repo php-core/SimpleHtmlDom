@@ -312,8 +312,9 @@
                 <p>Provides the ability to see debug messages for deprecated functions, malformed documents and parsing issues. Debug messages can be sent to a custom message handler or written to error_log (default).</p>
 <h2 id="example">Example</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlDocument.php';
-include_once 'Debug.php';
+
+require_once __DIR__. '/vendor/autoload.php';
+
 use PHPCore\SimpleHtmlDom\Debug;use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 Debug::enable();

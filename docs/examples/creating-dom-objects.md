@@ -2,7 +2,7 @@
 
 ```php
 <?php
-include_once 'HtmlDocument';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
@@ -13,7 +13,7 @@ $html->load('<html><body>Hello!</body></html>');
 
 ```php
 <?php
-include_once 'HtmlWeb';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
@@ -25,7 +25,7 @@ $html->load('http://www.google.com/');
 
 ```php
 <?php
-include_once 'HtmlDocument';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();

@@ -311,7 +311,7 @@
                 <p>Find below sample code that demonstrate the fundamental features of PHP Simple HTML DOM Parser.</p>
 <h2 id="read-plain-text-from-html-document">Read plain text from HTML document</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlWeb.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
@@ -320,7 +320,7 @@ echo $html-&gt;load('https://www.google.com/')-&gt;plaintext;
 <p>Loads a webpage into memory, parses it and returns the plain text.</p>
 <h2 id="read-plain-text-from-html-string">Read plain text from HTML string</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlDocument.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
@@ -329,7 +329,7 @@ echo $html-&gt;load('&lt;ul&gt;&lt;li&gt;Hello, World!&lt;/li&gt;&lt;/ul&gt;')-&
 <p>Parses HTML formatted text and returns the plain text. Note that the parser handles partial documents as well as full documents.</p>
 <h2 id="read-specific-elements-from-html-document">Read specific elements from HTML document</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlWeb.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
@@ -344,7 +344,7 @@ foreach($html-&gt;find('a') as $element)
 <p>Loads the specified document into memory and returns a list of image sources as well as anchor links. Note that <a href="../examples/finding-html-elements/"><code>find</code></a> supports <a href="https://www.w3.org/TR/selectors/">CSS</a> selectors to find elements in the DOM.</p>
 <h2 id="modify-html-documents">Modify HTML documents</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlDocument.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
@@ -360,7 +360,7 @@ echo $html; // &lt;div id=&quot;hello&quot;&gt;foo&lt;/div&gt;&lt;div id=&quot;w
 <p>Note that attributes can be accessed directly by the means of magic methods (<code>-&gt;class</code> and <code>-&gt;innertext</code> in the example above).</p>
 <h2 id="collect-information-from-slashdot">Collect information from Slashdot</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlWeb.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();

@@ -1,6 +1,6 @@
 <?php
 // This example illustrates how to use basic selectors to retrieve HTML contents
-include_once '../HtmlWeb.php';
+require_once dirname(__DIR__).'/vendor/autoload.php';
 
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 

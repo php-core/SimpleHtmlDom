@@ -311,7 +311,7 @@
               
                 <h2 id="from-string">From string</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlDocument';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
@@ -319,7 +319,7 @@ $html-&gt;load('&lt;html&gt;&lt;body&gt;Hello!&lt;/body&gt;&lt;/html&gt;');
 </code></pre>
 <h2 id="from-url">From URL</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlWeb';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
@@ -328,7 +328,7 @@ $html-&gt;load('http://www.google.com/');
 </code></pre>
 <h2 id="from-file">From file</h2>
 <pre><code class="language-php">&lt;?php
-include_once 'HtmlDocument';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();

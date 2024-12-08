@@ -4,8 +4,9 @@ Provides the ability to see debug messages for deprecated functions, malformed d
 
 ```php
 <?php
-include_once 'HtmlDocument.php';
-include_once 'Debug.php';
+
+require_once __DIR__. '/vendor/autoload.php';
+
 use PHPCore\SimpleHtmlDom\Debug;use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 Debug::enable();

@@ -3,7 +3,7 @@
  * This example loads a page from Slashdot and displays articles in a custom
  * format.
  */
-include_once '../../HtmlWeb.php';
+require_once dirname(__DIR__, 2).'/vendor/autoload.php';
 
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 

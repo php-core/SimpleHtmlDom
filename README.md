@@ -36,7 +36,7 @@ composer require php-core/simplehtmldom
 
 ```php
 <?php
-include_once 'vendor/autoload.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $client = new HtmlWeb();

@@ -8,7 +8,7 @@ Find below sample code that demonstrate the fundamental features of PHP Simple H
 
 ```php
 <?php
-include_once 'HtmlWeb.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
@@ -21,7 +21,7 @@ Loads a webpage into memory, parses it and returns the plain text.
 
 ```php
 <?php
-include_once 'HtmlDocument.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
@@ -34,7 +34,7 @@ Parses HTML formatted text and returns the plain text. Note that the parser hand
 
 ```php
 <?php
-include_once 'HtmlWeb.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
@@ -53,7 +53,7 @@ Loads the specified document into memory and returns a list of image sources as 
 
 ```php
 <?php
-include_once 'HtmlDocument.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
@@ -75,7 +75,7 @@ Note that attributes can be accessed directly by the means of magic methods (`->
 
 ```php
 <?php
-include_once 'HtmlWeb.php';
+require_once __DIR__. '/vendor/autoload.php';
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();

@@ -3,7 +3,7 @@
  * This example loads a page from IMDb and displays the most important details
  * in a custom format.
  */
-include_once '../../HtmlWeb.php';
+require_once dirname(__DIR__, 2).'/vendor/autoload.php';
 
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 

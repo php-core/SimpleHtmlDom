@@ -1,6 +1,6 @@
 <?php
 // This example illustrates how to use advanced selector features
-include_once '../HtmlDocument.php';
+require_once dirname(__DIR__).'/vendor/autoload.php';
 
 use PHPCore\SimpleHtmlDom\HtmlDocument;
 
