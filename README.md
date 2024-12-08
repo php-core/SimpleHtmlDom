@@ -50,9 +50,9 @@ Find more examples in the installation folder under `examples`.
 
 ## Documentation
 
-The documentation for this library is hosted at [https://github.com/php-core/simplehtmldom/blob/master/docs/index.md](https://github.com/php-core/simplehtmldom/blob/master/docs/index.md)
+The documentation for this library is hosted at [https://php-core.com/simplehtmldom/](https://php-core.com/simplehtmldom/)
 
-If you want to contribute code to the project, please open a [feature request](https://sourceforge.net/p/simplehtmldom/feature-requests/) and include your patch with the message.
+If you want to contribute code to the project, simply do a pull-request towards the [project repository](https://github.com/php-core/simplehtmldom).
 
 ## Authors
 

@@ -1,5 +1,5 @@
 site_name: Simple HTML DOM documentation
-site_url: https://php-core.com/docs/simplehtmldom/
+site_url: https://php-core.com/simplehtmldom/
 site_description: This is a fork of the Simple HTML DOM Parser project which aims to make "composer" compatibility better and clean-up some code, introduce type-safety and generally keep the project up-to-date.
 
 repo_name: GitHub
