@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://php-core.com/docs/simplehtmldom/examples/creating-dom-objects/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Creating HTML DOM objects - Simple HTML DOM documentation</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Creating HTML DOM objects";
+        var mkdocs_page_input_path = "examples/creating-dom-objects.md";
+        var mkdocs_page_url = "/docs/simplehtmldom/examples/creating-dom-objects/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Simple HTML DOM documentation
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../requirements/">Requirements</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../quick-start/">Quick Start</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">FAQ</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../faq/0001/">Why is the parser so memory hungry?</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Examples</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../accessing-element-attributes/">Accessing HTML element attributes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../adding-nodes/">Adding Nodes to the DOM</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Creating HTML DOM objects</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../customizing-parsing-behavior/">Customizing Parsing behavior</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../finding-html-elements/">Finding HTML Elements</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../saving-dom-objects/">Saving DOM objects</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../traversing-dom-tree/">Traversing the DOM tree</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Constants</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../constants/">Constants</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">HtmlDocument</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/">HtmlDocument</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/__call/">__call</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/__construct/">__construct</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/__debugInfo/">__debugInfo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/__destruct/">__destruct</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/__get/">__get</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/__toString/">__toString</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/childNodes/">childNodes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/createElement/">createElement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/createTextNode/">createTextNode</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/dump/">dump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/expect/">expect</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/find/">find</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/firstChild/">firstChild</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/getElementById/">getElementById</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/getElementByTagName/">getElementByTagName</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/getElementsById/">getElementsById</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/getElementsByTagName/">getElementsByTagName</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/lastChild/">lastChild</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/load/">load</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/loadFile/">loadFile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/remove_callback/">remove_callback</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/save/">save</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/set_callback/">set_callback</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/as_text_node/">(protected) as_text_node</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/copy_skip/">(protected) copy_skip</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/copy_until/">(protected) copy_until</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/copy_until_char/">(protected) copy_until_char</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/link_nodes/">(protected) link_nodes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/parse/">(protected) parse</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/parse_attr/">(protected) parse_attr</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/parse_charset/">(protected) parse_charset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/prepare/">(protected) prepare</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/read_tag/">(protected) read_tag</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/remove_noise/">(protected) remove_noise</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/restore_noise/">(protected) restore_noise</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlDocument/search_noise/">(protected) search_noise</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">HtmlNode</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/">HtmlNode</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/definitions/">Definitions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__call/">__call</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__construct/">__construct</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__debugInfo/">__debugInfo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__destruct/">__destruct</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__get/">__get</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__isset/">__isset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__set/">__set</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__toString/">__toString</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/__unset/">__unset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/addClass/">addClass</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/appendChild/">appendChild</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/childNodes/">childNodes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/clear/">clear</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/convert_text/">convert_text</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/dump/">dump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/dump_node/">dump_node</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/expect/">expect</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/find/">find</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/find_ancestor_tag/">find_ancestor_tag</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/firstChild/">firstChild</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/get_display_size/">get_display_size</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/getAllAttributes/">getAllAttributes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/getAttribute/">getAttribute</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/getElementById/">getElementById</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/getElementByTagName/">getElementByTagName</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/getElementsById/">getElementsById</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/getElementsByTagName/">getElementsByTagName</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/hasAttribute/">hasAttribute</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/hasChildNodes/">hasChildNodes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/hasClass/">hasClass</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/innertext/">innertext</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/is_utf8/">is_utf8</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/lastChild/">lastChild</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/makeup/">makeup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/nextSibling/">nextSibling</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/nodeName/">nodeName</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/outertext/">outertext</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/parent/">parent</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/parentNode/">parentNode</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/previousSibling/">previousSibling</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/remove/">remove</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/removeAttribute/">removeAttribute</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/removeChild/">removeChild</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/removeClass/">removeClass</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/save/">save</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/setAttribute/">setAttribute</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/text/">text</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/xmltext/">xmltext</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/is_block_element/">(protected) is_block_element</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/match/">(protected) match</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/parse_selector/">(protected) parse_selector</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HtmlNode/seek/">(protected) seek</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Debug</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Debug/">Debug</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Debug/disable/">disable</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Debug/enable/">enable</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Debug/log/">log</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Debug/log_once/">log_once</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Debug/setDebugHandler/">setDebugHandler</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Simple HTML DOM documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Examples</li>
+      <li class="breadcrumb-item active">Creating HTML DOM objects</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/php-core/simplehtmldom/edit/master/docs/examples/creating-dom-objects.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+    <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Breadcrumb Navigation">
+        <a href="../adding-nodes/" class="btn btn-neutral float-left" title="Adding Nodes to the DOM"><span class="icon icon-circle-arrow-left" aria-hidden="true"></span> Previous</a>
+        <a href="../customizing-parsing-behavior/" class="btn btn-neutral float-right" title="Customizing Parsing behavior">Next <span class="icon icon-circle-arrow-right" aria-hidden="true"></span></a>
+    </div>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="from-string">From string</h2>
+<pre><code class="language-php">&lt;?php
+include_once 'HtmlDocument';
+use PHPCore\SimpleHtmlDom\HtmlDocument;
+
+$html = new HtmlDocument();
+$html-&gt;load('&lt;html&gt;&lt;body&gt;Hello!&lt;/body&gt;&lt;/html&gt;');
+</code></pre>
+<h2 id="from-url">From URL</h2>
+<pre><code class="language-php">&lt;?php
+include_once 'HtmlWeb';
+use PHPCore\SimpleHtmlDom\HtmlWeb;
+
+$html = new HtmlWeb();
+$html-&gt;load('http://www.google.com/');
+
+</code></pre>
+<h2 id="from-file">From file</h2>
+<pre><code class="language-php">&lt;?php
+include_once 'HtmlDocument';
+use PHPCore\SimpleHtmlDom\HtmlDocument;
+
+$html = new HtmlDocument();
+$html-&gt;loadFile('test.htm');
+</code></pre>
+              
+            </div>
+          </div>
+<footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../adding-nodes/" class="btn btn-neutral float-left" title="Adding Nodes to the DOM"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../customizing-parsing-behavior/" class="btn btn-neutral float-right" title="Customizing Parsing behavior">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+<hr>
+<a class="logo" href="https://sourceforge.net/p/simplehtmldom/"><img alt="Download PHP Simple HTML DOM Parser" src="https://sourceforge.net/sflogo.php?type=16&group_id=218559" ></a>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/php-core/simplehtmldom" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../adding-nodes/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../customizing-parsing-behavior/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
