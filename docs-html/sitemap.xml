@@ -1,439 +1,439 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/</loc>
+         <loc>https://php-core.com/simplehtmldom/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/constants/</loc>
+         <loc>https://php-core.com/simplehtmldom/constants/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/quick-start/</loc>
+         <loc>https://php-core.com/simplehtmldom/quick-start/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/requirements/</loc>
+         <loc>https://php-core.com/simplehtmldom/requirements/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/Debug/</loc>
+         <loc>https://php-core.com/simplehtmldom/Debug/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/Debug/disable/</loc>
+         <loc>https://php-core.com/simplehtmldom/Debug/disable/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/Debug/enable/</loc>
+         <loc>https://php-core.com/simplehtmldom/Debug/enable/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/Debug/log/</loc>
+         <loc>https://php-core.com/simplehtmldom/Debug/log/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/Debug/log_once/</loc>
+         <loc>https://php-core.com/simplehtmldom/Debug/log_once/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/Debug/setDebugHandler/</loc>
+         <loc>https://php-core.com/simplehtmldom/Debug/setDebugHandler/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/__call/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/__call/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/__construct/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/__construct/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/__debugInfo/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/__debugInfo/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/__destruct/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/__destruct/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/__get/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/__get/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/__toString/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/__toString/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/as_text_node/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/as_text_node/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/childNodes/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/childNodes/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/copy_skip/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/copy_skip/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/copy_until/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/copy_until/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/copy_until_char/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/copy_until_char/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/createElement/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/createElement/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/createTextNode/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/createTextNode/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/dump/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/dump/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/expect/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/expect/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/find/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/find/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/firstChild/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/firstChild/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/getElementById/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/getElementById/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/getElementByTagName/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/getElementByTagName/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/getElementsById/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/getElementsById/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/getElementsByTagName/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/getElementsByTagName/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/lastChild/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/lastChild/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/link_nodes/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/link_nodes/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/load/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/load/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/loadFile/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/loadFile/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/parse/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/parse/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/parse_attr/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/parse_attr/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/parse_charset/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/parse_charset/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/prepare/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/prepare/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/read_tag/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/read_tag/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/remove_callback/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/remove_callback/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/remove_noise/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/remove_noise/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/restore_noise/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/restore_noise/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/save/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/save/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/search_noise/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/search_noise/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlDocument/set_callback/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlDocument/set_callback/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__call/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__call/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__construct/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__construct/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__debugInfo/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__debugInfo/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__destruct/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__destruct/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__get/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__get/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__isset/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__isset/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__set/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__set/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__toString/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__toString/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/__unset/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/__unset/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/addClass/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/addClass/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/appendChild/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/appendChild/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/childNodes/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/childNodes/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/clear/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/clear/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/convert_text/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/convert_text/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/definitions/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/definitions/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/dump/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/dump/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/dump_node/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/dump_node/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/expect/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/expect/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/find/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/find/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/find_ancestor_tag/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/find_ancestor_tag/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/firstChild/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/firstChild/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/getAllAttributes/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/getAllAttributes/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/getAttribute/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/getAttribute/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/getElementById/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/getElementById/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/getElementByTagName/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/getElementByTagName/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/getElementsById/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/getElementsById/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/getElementsByTagName/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/getElementsByTagName/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/get_display_size/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/get_display_size/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/hasAttribute/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/hasAttribute/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/hasChildNodes/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/hasChildNodes/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/hasClass/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/hasClass/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/innertext/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/innertext/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/is_block_element/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/is_block_element/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/is_utf8/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/is_utf8/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/lastChild/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/lastChild/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/makeup/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/makeup/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/match/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/match/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/nextSibling/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/nextSibling/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/nodeName/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/nodeName/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/outertext/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/outertext/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/parent/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/parent/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/parentNode/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/parentNode/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/parse_selector/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/parse_selector/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/previousSibling/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/previousSibling/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/remove/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/remove/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/removeAttribute/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/removeAttribute/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/removeChild/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/removeChild/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/removeClass/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/removeClass/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/save/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/save/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/seek/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/seek/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/setAttribute/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/setAttribute/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/text/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/text/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/HtmlNode/xmltext/</loc>
+         <loc>https://php-core.com/simplehtmldom/HtmlNode/xmltext/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/examples/accessing-element-attributes/</loc>
+         <loc>https://php-core.com/simplehtmldom/examples/accessing-element-attributes/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/examples/adding-nodes/</loc>
+         <loc>https://php-core.com/simplehtmldom/examples/adding-nodes/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/examples/creating-dom-objects/</loc>
+         <loc>https://php-core.com/simplehtmldom/examples/creating-dom-objects/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/examples/customizing-parsing-behavior/</loc>
+         <loc>https://php-core.com/simplehtmldom/examples/customizing-parsing-behavior/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/examples/finding-html-elements/</loc>
+         <loc>https://php-core.com/simplehtmldom/examples/finding-html-elements/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/examples/saving-dom-objects/</loc>
+         <loc>https://php-core.com/simplehtmldom/examples/saving-dom-objects/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/examples/traversing-dom-tree/</loc>
+         <loc>https://php-core.com/simplehtmldom/examples/traversing-dom-tree/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://php-core.com/docs/simplehtmldom/faq/0001/</loc>
+         <loc>https://php-core.com/simplehtmldom/faq/0001/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
 </urlset>

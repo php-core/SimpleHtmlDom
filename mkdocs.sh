@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ ! -f venv ]; then
+if [ ! -d venv ]; then
   python3 -m venv venv
 fi
 
@@ -9,4 +9,9 @@ python3 -m pip install --upgrade pip
 python3 -m pip install mkdocs mkdocs-redirects
 
 mkdocs build
+
+if [ -d docs-html ]; then
+  rm -rf docs-html
+fi
+
 mv site docs-html
