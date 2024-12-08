@@ -4,7 +4,8 @@
  * and returns the details in a custom format.
  */
 include_once '../../HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
+
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 // Download a page
 $doc = new HtmlWeb();

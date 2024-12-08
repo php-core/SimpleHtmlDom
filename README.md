@@ -1,11 +1,12 @@
 # PHP Simple HTML DOM Parser
 
-[![LICENSE](https://img.shields.io/github/license/simplehtmldom/simplehtmldom?logo=github&style=for-the-badge)](https://github.com/simplehtmldom/simplehtmldom/blob/master/LICENSE)
-[![RELEASE](https://img.shields.io/github/v/tag/simplehtmldom/simplehtmldom?label=release&logo=sourceforge&style=for-the-badge)](https://sourceforge.com/projects/simplehtmldom/files/simplehtmldom/)
-[![BASIC TESTS](https://img.shields.io/github/workflow/status/simplehtmldom/simplehtmldom/Basic%20Tests?label=Basic%20Tests&logo=github&style=for-the-badge)](https://github.com/simplehtmldom/simplehtmldom/actions/workflows/basic_tests.yml)
-[![PACKAGIST](https://img.shields.io/packagist/v/simplehtmldom/simplehtmldom?logo=composer&style=for-the-badge)](https://packagist.org/packages/simplehtmldom/simplehtmldom)
+[![LICENSE](https://img.shields.io/github/license/php-core/simplehtmldom?logo=github&style=for-the-badge)](https://github.com/php-core/simplehtmldom/blob/master/LICENSE)
+[![BASIC TESTS](https://img.shields.io/github/workflow/status/php-core/simplehtmldom/Basic%20Tests?label=Basic%20Tests&logo=github&style=for-the-badge)](https://github.com/php-core/simplehtmldom/actions/workflows/basic_tests.yml)
+[![PACKAGIST](https://img.shields.io/packagist/v/php-core/simplehtmldom?logo=composer&style=for-the-badge)](https://packagist.org/packages/php-core/simplehtmldom)
 
 simplehtmldom is a fast and reliable HTML DOM parser for PHP.
+
+This is a fork of the [Simple HTML DOM Parser project](https://sourceforge.net/p/simplehtmldom) which aims to make "composer" compatibility better and clean-up some code, introduce type-safety and generally keep the project up-to-date.
 
 ## Key features
 
@@ -16,7 +17,7 @@ simplehtmldom is a fast and reliable HTML DOM parser for PHP.
 
 ## Requirements
 
-simplehtmldom requires **PHP 5.6 or higher** with [ext-iconv](https://www.php.net/manual/en/book.iconv.php) enabled. Following extensions enable additional features of the parser:
+simplehtmldom requires **PHP 8.1 or higher** with [ext-iconv](https://www.php.net/manual/en/book.iconv.php) enabled. Following extensions enable additional features of the parser:
 
 * [ext-mbstring](https://secure.php.net/manual/en/book.mbstring.php) (recommended) \
 Enables better detection for multi-byte documents.
@@ -27,50 +28,16 @@ Enables SSL support for cURL.
 
 ## Installation
 
-**Manually**:
-
-Download the latest release from [SourceForge](https://sourceforge.net/projects/simplehtmldom/files/latest) and extract the files in the vendor folder of your project.
-
-**Composer**:
-
 ```sh
-composer require simplehtmldom/simplehtmldom
+composer require php-core/simplehtmldom
 ```
-
-**Git**:
-
-```
-git clone git://git.code.sf.net/p/simplehtmldom/repository simplehtmldom
-```
-
-_Note_: The [GitHub repository](https://github.com/simplehtmldom/simplehtmldom) serves as a mirror for the SourceForge project. We currently accept pull requests and issues only via SourceForge.
 
 ## Usage
 
-This example illustrates how to return the page title:
-
-<details><summary>Manually</summary>
-
-```
-<?php
-include_once 'HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
-
-$client = new HtmlWeb();
-$html = $client->load('https://www.google.com/search?q=simplehtmldom');
-
-// Returns the page title
-echo $html->find('title', 0)->plaintext . PHP_EOL;
-```
-
-</details>
-
-<details><summary>Using composer</summary>
-
-```
+```php
 <?php
 include_once 'vendor/autoload.php';
-use simplehtmldom\HtmlWeb;
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $client = new HtmlWeb();
 $html = $client->load('https://www.google.com/search?q=simplehtmldom');
@@ -78,23 +45,12 @@ $html = $client->load('https://www.google.com/search?q=simplehtmldom');
 // Returns the page title
 echo $html->find('title', 0)->plaintext . PHP_EOL;
 ```
-
-</details>
 
 Find more examples in the installation folder under `examples`.
 
 ## Documentation
 
-The documentation for this library is hosted at [https://simplehtmldom.sourceforge.io/docs/](https://simplehtmldom.sourceforge.io/docs/)
-
-## Getting involved
-
-There are various ways for you to get involved with simplehtmldom. Here are a few:
-
-* Share this project with your friends (Twitter, Facebook, ..._you name it_...).
-* Report [bugs](https://sourceforge.net/p/simplehtmldom/bugs/) (SourceForge).
-* Request [features](https://sourceforge.net/p/simplehtmldom/feature-requests/) (SourceForge).
-* Discuss existing bugs, features and ideas.
+The documentation for this library is hosted at [https://github.com/php-core/simplehtmldom/blob/master/docs/index.md](https://github.com/php-core/simplehtmldom/blob/master/docs/index.md)
 
 If you want to contribute code to the project, please open a [feature request](https://sourceforge.net/p/simplehtmldom/feature-requests/) and include your patch with the message.
 
@@ -106,6 +62,7 @@ If you want to contribute code to the project, please open a [feature request](h
  * Rus Carroll
  * Yousuke Kumakura
  * Vadim Voituk
+ * [PHPCore](https://php-core.com)
 
 ## License
 

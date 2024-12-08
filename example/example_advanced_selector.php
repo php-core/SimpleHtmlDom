@@ -1,7 +1,8 @@
 <?php
 // This example illustrates how to use advanced selector features
 include_once '../HtmlDocument.php';
-use simplehtmldom\HtmlDocument;
+
+use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 // -----------------------------------------------------------------------------
 echo '<h2>Descendant selectors</h2>' . PHP_EOL;

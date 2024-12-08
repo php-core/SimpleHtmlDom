@@ -42,7 +42,7 @@
     <div id="fragment-11">
       <div class="code">
         <span class="comment">// Create DOM from URL or file</span><br>
-        $html = <strong>file_get_html</strong>(<span class="var">'http://www.google.com/'</span>);<br>
+        $html = <strong>fileGetHtmlDom</strong>(<span class="var">'http://www.google.com/'</span>);<br>
         <br>
         <span class="comment">// Find all images </span><br>
         foreach($html-&gt;<strong>find</strong>(<span class="var">'img'</span>) as $element) <br>
@@ -55,10 +55,10 @@ foreach($html-&gt;<strong>find</strong>(<span class="var">'a'</span>) as $elemen
     <div id="fragment-12">
       <div class="code">
         <span class="comment">// Create DOM from string</span><br>
-        $html = <strong>str_get_html</strong>(<span class="var">'&lt;div id=&quot;hello&quot;&gt;Hello&lt;/div&gt;&lt;div id=&quot;world&quot;&gt;World&lt;/div&gt;'</span>);<span class="comment"><br>
+        $html = <strong>strGetHtmlDom</strong>(<span class="var">'&lt;div id=&quot;hello&quot;&gt;Hello&lt;/div&gt;&lt;div id=&quot;world&quot;&gt;World&lt;/div&gt;'</span>);<span class="comment"><br>
         <br>
         </span>
-        
+
 $html-&gt;<strong>find</strong>(<span class="var">'div', 1</span>)-&gt;<strong>class</strong> = <span class="var">'bar'</span>;<br>
 <br>
 $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt;<strong>innertext</strong> = <span class="var">'foo'</span>;<br>
@@ -68,7 +68,7 @@ $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt
     <div id="fragment-13">
       <div class="code"><br>
         <span class="comment">// Dump contents (without tags) from HTML</span><br>
-        echo <strong>file_get_html</strong>(<span class="var">'http://www.google.com/'</span>)-&gt;<strong>plaintext</strong>;
+        echo <strong>fileGetHtmlDom</strong>(<span class="var">'http://www.google.com/'</span>)-&gt;<strong>plaintext</strong>;
 				<br>
 				<br>
       </div>
@@ -76,7 +76,7 @@ $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt
     <div id="fragment-14">
       <div class="code">
         <span class="comment">// Create DOM from URL</span><br>
-        $html = <strong>file_get_html</strong>(<span class="var">'http://slashdot.org/'</span>);<br>
+        $html = <strong>fileGetHtmlDom</strong>(<span class="var">'http://slashdot.org/'</span>);<br>
         <br>
         <span class="comment">// Find all article blocks</span><br>
         foreach($html-&gt;<strong>find</strong>(<span class="var">'div.article'</span>) as $article) {<br>
@@ -103,15 +103,6 @@ $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt
     Contributions by: Yousuke Kumakura (Attribute Filters) </div>
   <p align="center"><a href="https://sourceforge.net"><img src="https://sflogo.sourceforge.net/sflogo.php?group_id=218559&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo" /></a> </p>
 </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3452027-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
 </body>
 </html>
 <!--$Rev: 48 $-->

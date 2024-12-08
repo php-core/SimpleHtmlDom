@@ -5,14 +5,17 @@ simplehtmldom_*.zip
 tests/data/*
 !tests/data/.gitkeep
 
+# PHPUnit
+.phpunit.result.cache
+
 # Visual Studio Code
 .vscode/
 
 # PhpStorm
 .idea/
 
-# MkDocs generated files
-/site/
-
 # Composer
 /vendor/
+
+# Python3 virtual environment
+/venv/

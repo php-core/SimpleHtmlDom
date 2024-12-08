@@ -9,7 +9,7 @@ Find below sample code that demonstrate the fundamental features of PHP Simple H
 ```php
 <?php
 include_once 'HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
 echo $html->load('https://www.google.com/')->plaintext;
@@ -22,7 +22,7 @@ Loads a webpage into memory, parses it and returns the plain text.
 ```php
 <?php
 include_once 'HtmlDocument.php';
-use simplehtmldom\HtmlDocument;
+use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
 echo $html->load('<ul><li>Hello, World!</li></ul>')->plaintext;
@@ -35,16 +35,16 @@ Parses HTML formatted text and returns the plain text. Note that the parser hand
 ```php
 <?php
 include_once 'HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
 $html->load('https://www.google.com/');
 
 foreach($html->find('img') as $element)
-    echo $element->src . '<br>';
+    {echo $element->src . '<br>';}
 
 foreach($html->find('a') as $element)
-    echo $element->href . '<br>';
+    {echo $element->href . '<br>';}
 ```
 
 Loads the specified document into memory and returns a list of image sources as well as anchor links. Note that [`find`](examples/finding-html-elements.md) supports [CSS](https://www.w3.org/TR/selectors/) selectors to find elements in the DOM.
@@ -54,7 +54,7 @@ Loads the specified document into memory and returns a list of image sources as 
 ```php
 <?php
 include_once 'HtmlDocument.php';
-use simplehtmldom\HtmlDocument;
+use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
 $html->load('<div id="hello">Hello, </div><div id="world">World!</div>');
@@ -76,7 +76,7 @@ Note that attributes can be accessed directly by the means of magic methods (`->
 ```php
 <?php
 include_once 'HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
 $html->load('https://slashdot.org/');

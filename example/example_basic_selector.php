@@ -1,7 +1,8 @@
 <?php
 // This example illustrates how to use basic selectors to retrieve HTML contents
 include_once '../HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
+
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 // get DOM from URL or file
 $doc = new HtmlWeb();

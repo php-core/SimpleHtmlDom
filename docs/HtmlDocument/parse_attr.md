@@ -8,4 +8,4 @@ Parses a single attribute starting at the current parsing position in the docume
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | `node`    | The current element (node).                                                                                                             |
 | `name`    | The attribute name.                                                                                                                     |
-| `space`   | An array of whitespace surrounding the current attribute (see [Attribute Whitespace](../HtmlNode/definitions.md#attribute-whitespace)). |
+| `space`   | An array of whitespace surrounding the current attribute (see [Attribute Whitespace](../simple_html_dom_node/definitions.md#attribute-whitespace)). |

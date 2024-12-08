@@ -1,5 +1,5 @@
 {
-    "name": "simplehtmldom/simplehtmldom",
+    "name": "php-core/simplehtmldom",
     "description": "A fast, simple and reliable HTML document parser for PHP.",
     "keywords": [
         "php",
@@ -9,7 +9,7 @@
         "simple",
         "simplehtmldom"
     ],
-    "homepage": "https://simplehtmldom.sourceforge.io/",
+    "homepage": "https://github.com/php-core/simplehtmldom",
     "license": "MIT",
     "authors": [
         {
@@ -23,34 +23,40 @@
         {
             "name": "logmanoriginal",
             "role": "Developer"
+        },
+        {
+            "name": "PHP-Core",
+            "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://sourceforge.net/p/simplehtmldom/bugs/",
-        "wiki": "https://simplehtmldom.sourceforge.io/docs/",
-        "source": "https://sourceforge.net/p/simplehtmldom/repository/",
-        "rss": "https://sourceforge.net/p/simplehtmldom/news/feed.rss"
+        "issues": "https://github.com/php-core/simplehtmldom/issues",
+        "wiki": "https://github.com/php-core/simplehtmldom/blob/master/docs/index.md",
+        "source": "https://github.com/php-core/simplehtmldom"
     },
     "autoload": {
-        "classmap": [
-            "./"
+        "files": [
+            "src/include/constants.php",
+            "src/include/functions.php"
         ],
-        "exclude-from-classmap": [
-            "/example/",
-            "/docs/",
-            "/tests/",
-            "simple_html_dom.php"
-        ]
+        "psr-4": {
+            "PHPCore\\SimpleHtmlDom\\": "src/PHPCore/SimpleHtmlDom"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPCore\\SimpleHtmlDom\\Tests\\": "tests/"
+        }
     },
     "require": {
-        "php": ">=5.6",
+        "php": ">=8.1",
         "ext-iconv": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6 || ^7",
-        "squizlabs/php_codesniffer": "^2",
-        "phpcompatibility/php-compatibility": "^9",
-        "dealerdirect/phpcodesniffer-composer-installer": "*"
+        "phpunit/phpunit": "^9.6",
+        "squizlabs/php_codesniffer": "^3.11",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
     },
     "suggest": {
         "ext-mbstring": "Allows better decoding for multi-byte documents",
@@ -62,5 +68,8 @@
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
     }
 }

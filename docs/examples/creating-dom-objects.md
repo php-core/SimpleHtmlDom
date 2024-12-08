@@ -3,7 +3,7 @@
 ```php
 <?php
 include_once 'HtmlDocument';
-use simplehtmldom\HtmlDocument;
+use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
 $html->load('<html><body>Hello!</body></html>');
@@ -14,7 +14,7 @@ $html->load('<html><body>Hello!</body></html>');
 ```php
 <?php
 include_once 'HtmlWeb';
-use simplehtmldom\HtmlWeb;
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 $html = new HtmlWeb();
 $html->load('http://www.google.com/');
@@ -26,7 +26,7 @@ $html->load('http://www.google.com/');
 ```php
 <?php
 include_once 'HtmlDocument';
-use simplehtmldom\HtmlDocument;
+use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 $html = new HtmlDocument();
 $html->loadFile('test.htm');

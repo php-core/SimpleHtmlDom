@@ -6,7 +6,7 @@ Finds elements in the DOM.
 
 | Parameter   | Description                                      |
 |-------------|--------------------------------------------------|
-| `selector`  | A [CSS style selector](../HtmlNode/find.md).     |
+| `selector`  | A [CSS style selector](../simple_html_dom_node/find.md).     |
 | `idx`       | Index of the element to return.                  |
 | `lowercase` | Matches tag names case insensitive when enabled. |
 

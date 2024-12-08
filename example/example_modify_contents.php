@@ -1,7 +1,8 @@
 <?php
 // This example illustrates how to modify HTML contents
 include_once '../HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
+
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 // Load the document
 $doc = new HtmlWeb();

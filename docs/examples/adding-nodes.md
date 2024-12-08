@@ -9,7 +9,7 @@ and will return undesired results if used incorrectly.
 - Use [`$html->createElement`](../HtmlDocument/createElement.md) and
 [`$html->createTextNode`](../HtmlDocument/createTextNode.md) to create
 new nodes.
-- Use [`$node->appendChild`](../HtmlNode/appendChild.md) to add a
+- Use [`$node->appendChild`](../simple_html_dom_node/appendChild.md) to add a
 node as child to another node.
 - Nodes can be combined in any order.
 
@@ -20,7 +20,7 @@ node as child to another node.
 // This example illustrates adding new elements to the DOM.
 
 require_once 'HtmlDocument.php';
-use simplehtmldom\HtmlDocument;
+use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 /***************************** table data *************************************/
 

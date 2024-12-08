@@ -6,8 +6,7 @@ Provides the ability to see debug messages for deprecated functions, malformed d
 <?php
 include_once 'HtmlDocument.php';
 include_once 'Debug.php';
-use simplehtmldom\HtmlDocument;
-use simplehtmldom\Debug;
+use PHPCore\SimpleHtmlDom\Debug;use PHPCore\SimpleHtmlDom\HtmlDocument;
 
 Debug::enable();
 
@@ -22,6 +21,6 @@ Debug::disable();
 
 ```
 [DEBUG] [/var/www/html/simplehtmldom/Debug.php:30] [/var/www/html/simplehtmldom/test.php:7] "Debug mode has been enabled"
-[DEBUG] [/var/www/html/simplehtmldom/HtmlNode.php:83] [/var/www/html/simplehtmldom/test.php:11] "simplehtmldom\HtmlNode->children() has been deprecated and will be removed in the next major version of simplehtmldom. Use simplehtmldom\HtmlNode->childNodes() instead."
+[DEBUG] [/var/www/html/simplehtmldom/HtmlNode.php:83] [/var/www/html/simplehtmldom/test.php:11] "PHPCore\SimpleHtmlDom\HtmlNode->children() has been deprecated and will be removed in the next major version of simplehtmldom. Use PHPCore\SimpleHtmlDom\HtmlNode->childNodes() instead."
 [DEBUG] [/var/www/html/simplehtmldom/Debug.php:38] [/var/www/html/simplehtmldom/test.php:13] "Debug mode has been disabled"
 ```

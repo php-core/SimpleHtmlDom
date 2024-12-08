@@ -1,4 +1,4 @@
-Represents the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) in memory. Provides functions to parse documents and access individual elements (see [`HtmlNode`](../HtmlNode/index.md)).
+Represents the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) in memory. Provides functions to parse documents and access individual elements (see [`HtmlNode`](../simple_html_dom_node/index.md)).
 
 ## Public Properties
 

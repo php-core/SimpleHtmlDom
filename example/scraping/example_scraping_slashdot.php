@@ -4,7 +4,8 @@
  * format.
  */
 include_once '../../HtmlWeb.php';
-use simplehtmldom\HtmlWeb;
+
+use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 // Load the page into memory
 $doc = new HtmlWeb();
