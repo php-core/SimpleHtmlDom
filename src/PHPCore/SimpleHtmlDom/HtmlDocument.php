@@ -32,26 +32,26 @@ class HtmlDocument
 	public $callback = null;
 	public $lowercase = false;
 	public $original_size;
-    public $size;
+	public $size;
 
 	protected $pos;
 	protected $doc;
 	protected $char;
 
 	protected $cursor;
-    protected ?HtmlNode $parent;
-    protected array $noise = [];
-    protected string $token_blank = " \t\r\n";
+	protected ?HtmlNode $parent;
+	protected array $noise = [];
+	protected string $token_blank = " \t\r\n";
 
-    public string $_charset = '';
-    public mixed $_target_charset = '';
+	public string $_charset = '';
+	public mixed $_target_charset = '';
 
-    public string $default_br_text = '';
-    public string $default_span_text = '';
+	public string $default_br_text = '';
+	public string $default_span_text = '';
 
-    public ?string $targetCharset = null;
+	public ?string $targetCharset = null;
 
-    // The end tags of these elements will close any unclosed element with optional end tags it contains.
+	// The end tags of these elements will close any unclosed element with optional end tags it contains.
 	// Example: <table><tr>...</table> - the 'table' element closes the 'tr' element.
 	protected $block_tags = array(
 		'body' => 1,
