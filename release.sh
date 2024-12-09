@@ -8,6 +8,20 @@
 # 2) Build release file: "sh release.sh". For the example above, this will build
 #   "simplehtmldom_2_0_0.zip"
 
+set -Eeuo pipefail
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  # Require gnu-sed.
+  if ! [ -x "$(command -v gsed)" ]; then
+    echo "Error: 'gsed' is not istalled." >&2
+    echo "If you are using Homebrew, install with 'brew install gnu-sed'." >&2
+    exit 1
+  fi
+  SED_CMD="gsed"
+else
+  SED_CMD="sed"
+fi
+
 tag=$(git tag -l --points-at HEAD)
 
 if [ -z "$tag" ]; then
@@ -58,8 +72,8 @@ replacement="Rev. $tag ($(git rev-list --count HEAD))"
 # Build archive
 if [ "$version" ]; then
   # Inject version information to all files (limit to file type!)
-  find . -name '*.php' -exec sed -i -e "s/$marker/$replacement/g" {} \;;
-  find . -name '*.htm' -exec sed -i -e "s/$marker/$replacement/g" {} \;;
+  find . -name '*.php' -exec $SED_CMD -i -e "s/$marker/$replacement/g" {} \;;
+  find . -name '*.htm' -exec $SED_CMD -i -e "s/$marker/$replacement/g" {} \;;
   # Create stash commit (otherwise git archive won't work)
   stash=$(git stash create);
   git archive --format=zip --output="$prefix$version".zip --worktree-attributes "$stash";
