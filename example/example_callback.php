@@ -1,11 +1,12 @@
 <?php
 // This example illustrates how to utilize the callback feature to manipulate the DOM
-require_once dirname(__DIR__).'/vendor/autoload.php';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 
 // Write a callback function with one parameter for the element
-function my_callback($element) {
+function my_callback($element)
+{
 	if ($element->tag === 'a') { // Invalidate all anchors
 		$element->href = '#';
 	}

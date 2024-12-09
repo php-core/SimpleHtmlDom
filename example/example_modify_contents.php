@@ -1,7 +1,7 @@
 <?php
 // This example illustrates how to modify HTML contents
 
-require_once dirname(__DIR__).'/vendor/autoload.php';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 use PHPCore\SimpleHtmlDom\HtmlWeb;
 

@@ -8,16 +8,16 @@ use PHPUnit\Framework\TestCase;
 
 class BaseTest extends TestCase {
 
-    protected HtmlDocument $html;
+	protected HtmlDocument $html;
 
-    protected function setUp(): void
-    {
-        $this->html = new HtmlDocument();
-    }
+	protected function setUp(): void
+	{
+		$this->html = new HtmlDocument();
+	}
 
-    protected function tearDown(): void
-    {
-        $this->html->clear();
-        unset($this->html);
-    }
+	protected function tearDown(): void
+	{
+		$this->html->clear();
+		unset($this->html);
+	}
 }
