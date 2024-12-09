@@ -4,16 +4,11 @@
   <!-- Exclude composer files -->
   <exclude-pattern>*/vendor/*</exclude-pattern>
 
-  <!-- Exclude examples -->
-  <!-- TODO: Enforce coding standards on examples -->
-  <exclude-pattern>*/example/*</exclude-pattern>
-
   <!-- Exclude docs -->
   <exclude-pattern>*/docs/*</exclude-pattern>
 
-  <!-- Exclude tests -->
-  <!-- TODO: Enforce coding standards on tests -->
-  <exclude-pattern>*/tests/*</exclude-pattern>
+  <!-- Exclude docs-html -->
+  <exclude-pattern>*/docs-html/*</exclude-pattern>
 
   <!-- Check only files with .php extension -->
   <arg name="extensions" value="php"/>
