@@ -571,7 +571,7 @@ EOD;
 
 	public function test_outertext_should_add_quotes_to_attribute_values_with_space()
 	{
-		$expected = '<e attribute="new' . ' ' . 'value">';
+		$expected = '<e attribute="new value">';
 
 		$this->html->load('<e attribute=value>');
 		$this->html->find('e', 0)->setAttribute('attribute', 'new value');

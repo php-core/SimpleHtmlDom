@@ -71,6 +71,7 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit",
-        "fix-cs": "vendor/bin/phpcbf ."
+        "check-cs": "vendor/bin/phpcs . --standard=phpcs.xml --warning-severity=0 -q --report=checkstyle",
+        "fix-cs": "vendor/bin/phpcbf . --standard=phpcs.xml --warning-severity=0"
     }
 }
