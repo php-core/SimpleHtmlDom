@@ -1,6 +1,7 @@
 {
     "name": "php-core/simplehtmldom",
     "description": "A fast, simple and reliable HTML document parser for PHP.",
+    "version": "0.0.1",
     "keywords": [
         "php",
         "html",
